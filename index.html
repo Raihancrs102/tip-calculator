@@ -1,1 +1,27 @@
 <!-- this is html file -->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tip Calculator</title>
+</head>
+<body>
+  <h2>Tip Calculator</h2>
+
+  <label>Bill Amount ($):</label>
+  <input type="number" id="bill" step="0.01"><br><br>
+
+  <label>Tip Percentage (%):</label>
+  <input type="number" id="tip" step="0.01"><br><br>
+
+  <label>Number of People:</label>
+  <input type="number" id="people"><br><br>
+
+  <button onclick="calculateTip()">Calculate</button>
+
+  <h3 id="result"></h3>
+
+  <script src="./script.js">
+  </script>
+</body>
+</html>
